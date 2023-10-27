@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./Inter-Medium.ttf);
+}
+
+.email-input{
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    outline: none;
+    display: block;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    padding-left: 11px;    
+}
+
+
+.email-input::placeholder{
+    color: #9E9E9E;
+}
+
+
+ .password-div{
+    padding-top: 3px;
+    margin-top: 9px;
+    width: 467px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid #FF0000;
+    background-color: #610000;
+    display: flex;
+    align-items: center;
+ }
+
+
+.password-input{
+    width: 276px;
+    height: 15px;
+    border: none;
+    outline: none; 
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    background-color: transparent; 
+    padding-left: 11px;
+}
+
+.password-input::placeholder{
+    color: #F07272;
+}
+
+.number-input{
+    margin-top: 14px;
+    width: 541px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #A8AB00;
+    display: block;
+    outline: none;
+    padding-left: 11px;
+}
+
+.number-input::placeholder{
+    color: #A8AB00;
+}
+
+.text-input{
+    margin-top: 9px;
+    width: 315px;
+    height: 45px;
+    border-radius: 30px;
+    border: 2px solid #F9FE03;
+    background-color: #292828;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 11px;
+
+}
+
+.text-input::placeholder{
+    color: #F9FE03;
+}
